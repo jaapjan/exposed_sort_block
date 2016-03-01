@@ -1,0 +1,7 @@
+name: Exposed Sort Block
+type: module
+description: Add Views Exposed Sort in a (separate) block from the exposed filters.
+core: 8.x
+package: Views
+dependencies:
+  - views

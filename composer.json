@@ -1,0 +1,14 @@
+{
+  "name": "drupal/exposed_sort_block",
+  "type": "drupal-module",
+  "description": "Add Views Exposed Sort in a (separate) block.",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/exposed_sort_block",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "http://drupal.org/project/issues/exposed_sort_block",
+    "source": "http://cgit.drupalcode.org/exposed_sort_block"
+  },
+  "require": { }
+}

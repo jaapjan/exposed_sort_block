@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains exposed_sort_block.module..
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function exposed_sort_block_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the exposed_sort_block module.
+    case 'help.page.exposed_sort_block':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Add Views Exposed Sort in a (separate) block.') . '</p>';
+      return $output;
+
+    default:
+  }
+}
